@@ -1,6 +1,6 @@
 package hust.soict.dsai.test.store;
 
-import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import hust.soict.dsai.aims.media.DigitalVideoDisc;
 import hust.soict.dsai.aims.store.Store;
 
 public class StoreTest {
@@ -17,14 +17,14 @@ public class StoreTest {
                 "Animation", 18.99f);
 
         //Test the addDVD method
-        store_1.addDVD(dvd1);
-        store_1.addDVD(dvd2);
-        store_1.addDVD(dvd3);
-        store_1.print();
+        store_1.addMedia(dvd1);
+        store_1.addMedia(dvd2);
+        store_1.addMedia(dvd3);
+        //store_1.print();
 
         //Test the removeDVD method
         System.out.println("Result after remove dvd2:");
-        store_1.removeDVD(dvd2);
-        store_1.print();
+        store_1.removeMedia(dvd2);
+        //store_1.print();
     }
 }
