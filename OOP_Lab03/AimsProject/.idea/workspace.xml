@@ -5,20 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1df9e6e-d048-43dd-b408-69a648479ee1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/store/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/Aims.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/Aims.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/cart/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/disc/DigitalVideoDisc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/store/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/cart/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/cart/CartTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/disc/TestPassingParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/disc/TestPassingParameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/store/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/store/StoreTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/store/StoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +31,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -47,30 +51,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Aims.executor": "Run",
-    "Application.CartTest.executor": "Run",
-    "Application.StoreTest.executor": "Run",
-    "Application.TestPassingParameter.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dell/IdeaProjects/OOP_Lab01",
-    "onboarding.tips.debug.path": "C:/Users/Dell/IdeaProjects/AimsProject/src/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Aims.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CartTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Disc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Media.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestPassingParameter.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;topic/memory-management-string&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/OOP_Lab03&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dell/IdeaProjects/AimsProject/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hust.soict.dsai" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AimsProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AimsProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
