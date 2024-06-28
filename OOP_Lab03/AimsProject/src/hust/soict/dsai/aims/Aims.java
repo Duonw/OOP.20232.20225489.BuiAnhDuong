@@ -1,15 +1,60 @@
 package hust.soict.dsai.aims;
 
 import hust.soict.dsai.aims.cart.Cart;
+import hust.soict.dsai.aims.exception.PlayerException;
 import hust.soict.dsai.aims.media.*;
 import hust.soict.dsai.aims.store.Store;
+import javafx.application.Application;
+import javafx.scene.control.Alert;
+import javafx.stage.Stage;
 
 import java.util.Collections;
 import java.util.Scanner;
 
 import static java.util.Collections.*;
 
-public class Aims {
+public class Aims extends Application {
+    private Store store;
+    private Cart cart;
+    private Scanner scanner;
+
+    @Override
+    public void start(Stage primaryStage) {
+        Store store = new Store("Timmy's Store", 30);
+        Cart cart = new Cart();
+        Scanner scanner = new Scanner(System.in);
+        while (true) {
+            showMenu();
+            int choice = Aims.getValidIntegerInput(scanner);
+
+            switch (choice) {
+                case 1: // View store
+                    store.print();
+                    storeMenu(store, cart, scanner);
+                    break;
+                case 2: // Update store
+                    store.updateStoreMenu(scanner);
+                    break;
+                case 3: // See current cart
+                    for (Media media: cart.getItemsOrdered()) {
+                        System.out.println(media.toString());
+                    }
+                    cartMenu(cart, scanner);
+                    break;
+                case 0: // Exit
+                    System.out.println("Exiting...");
+                    scanner.close();
+                    System.exit(0);
+                default:
+                    System.out.println("Invalid choice. Please enter a valid option.");
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Application.launch(args);
+    }
+
     public static void showMenu() {
         System.out.println("--------------------------------");
         System.out.println("AIMS: ");
@@ -78,7 +123,16 @@ public class Aims {
                             for (Media media: store.getItemsInStore()) {
                                 if (title.equals(media.getTitle()) && media instanceof Playable) {
                                     Playable newMedia = (Playable) media;
-                                    newMedia.play();
+                                    try {
+                                        newMedia.play();
+                                    } catch (PlayerException e) {
+                                        e.printStackTrace();
+                                        Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+                                        errorAlert.setTitle("Illegal Length");
+                                        errorAlert.setHeaderText(null);
+                                        errorAlert.setContentText("Length of item is less than or equal to 0");
+                                        errorAlert.showAndWait();
+                                    }
                                     matched = true;
                                     break;
                                 } else if (title.equals(media.getTitle()) && !(media instanceof Playable)) {
@@ -153,7 +207,16 @@ public class Aims {
                         case 2:
                             if (matchedMedia instanceof Playable) {
                                 Playable newMedia = (Playable) matchedMedia;
-                                newMedia.play();
+                                try {
+                                    newMedia.play();
+                                } catch (PlayerException e) {
+                                    e.printStackTrace();
+                                    Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+                                    errorAlert.setTitle("Illegal Length");
+                                    errorAlert.setHeaderText(null);
+                                    errorAlert.setContentText("Length of item is less than or equal to 0");
+                                    errorAlert.showAndWait();
+                                }
                             } else {
                                 System.out.println("Media cannot be played.");
                             }
@@ -312,7 +375,16 @@ public class Aims {
                             for (Media media : cart.getItemsOrdered()) {
                                 if (title.equals(media.getTitle()) && media instanceof Playable) {
                                     Playable newMedia = (Playable) media;
-                                    newMedia.play();
+                                    try {
+                                        newMedia.play();
+                                    } catch (PlayerException e) {
+                                        e.printStackTrace();
+                                        Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+                                        errorAlert.setTitle("Illegal Length");
+                                        errorAlert.setHeaderText(null);
+                                        errorAlert.setContentText("Length of item is less than or equal to 0");
+                                        errorAlert.showAndWait();
+                                    }
                                     matched = true;
                                     break;
                                 } else if (title.equals(media.getTitle()) && !(media instanceof Playable)) {
@@ -365,37 +437,6 @@ public class Aims {
         scanner.nextLine();
         return choice;
     }
-
-    public static void main(String[] args) {
-        Store store1 = new Store("Timmy's Store", 30);
-        Cart cart = new Cart();
-        Scanner scanner = new Scanner(System.in);
-
-        while (true) {
-            showMenu();
-            int choice = Aims.getValidIntegerInput(scanner);
-
-            switch (choice) {
-                case 1: // View store
-                    store1.print();
-                    storeMenu(store1, cart, scanner);
-                    break;
-                case 2: // Update store
-                    store1.updateStoreMenu(scanner);
-                    break;
-                case 3: // See current cart
-                    for (Media media: cart.getItemsOrdered()) {
-                        System.out.println(media.toString());
-                    }
-                    cartMenu(cart, scanner);
-                    break;
-                case 0: // Exit
-                    System.out.println("Exiting...");
-                    scanner.close();
-                    System.exit(0);
-                default:
-                    System.out.println("Invalid choice. Please enter a valid option.");
-            }
-        }
-    }
 }
+
+

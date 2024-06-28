@@ -22,6 +22,8 @@ public class Store {
         this.itemsInStore = new ArrayList<Media>();
     }
 
+    public String getStoreName() {return this.storeName;}
+
     public ArrayList<Media> getItemsInStore() {
         return this.itemsInStore;
     }

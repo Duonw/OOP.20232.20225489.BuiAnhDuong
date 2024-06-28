@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 import hust.soict.dsai.aims.media.*;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;

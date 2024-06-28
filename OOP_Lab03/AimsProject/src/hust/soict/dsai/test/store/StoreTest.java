@@ -6,7 +6,7 @@ import hust.soict.dsai.aims.store.Store;
 public class StoreTest {
     public static void main(String[] args) {
         //Create a new store
-        Store store_1 = new Store("John's hust.soict.dsai.aims.store.Store", 100);
+        Store store_1 = new Store("John's store", 100);
 
         //Create new dvd objects
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King",

@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1df9e6e-d048-43dd-b408-69a648479ee1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/Aims.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/Aims.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/cart/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/cart/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/disc/DigitalVideoDisc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/aims/store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/cart/CartTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/cart/CartTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/disc/TestPassingParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/disc/TestPassingParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/store/StoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AimsProject/hust/soict/dsai/test/store/StoreTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/cart/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/dsai/test/store/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/dsai/test/store/StoreTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1df9e6e-d048-43dd-b408-69a648479ee1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -53,14 +37,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.AWTAccumulator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddBookToStoreScreen.executor&quot;: &quot;Run&quot;,
     &quot;Application.Aims.executor&quot;: &quot;Run&quot;,
     &quot;Application.Book.executor&quot;: &quot;Run&quot;,
     &quot;Application.Cart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CartScreen.executor&quot;: &quot;Run&quot;,
     &quot;Application.CartTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.Disc.executor&quot;: &quot;Run&quot;,
     &quot;Application.Media.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StoreScreen.executor&quot;: &quot;Run&quot;,
     &quot;Application.StoreTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwingAccumulator.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestPassingParameter.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -68,9 +58,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;topic/memory-management-string&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;release/lab04&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/OOP_Lab03&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dell/IdeaProjects/OOP.20232.20225489.BuiAnhDuong/OOP_Lab05/GUIProject&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dell/IdeaProjects/AimsProject/src/Main.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
@@ -106,6 +96,10 @@
           <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

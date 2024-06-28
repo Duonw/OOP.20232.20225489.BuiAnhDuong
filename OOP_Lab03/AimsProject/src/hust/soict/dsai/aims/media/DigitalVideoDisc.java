@@ -1,7 +1,7 @@
 package hust.soict.dsai.aims.media;
 
-import java.util.Collections;
-import java.util.List;
+import hust.soict.dsai.aims.exception.PlayerException;
+
 import java.util.Scanner;
 
 import static hust.soict.dsai.aims.Aims.getValidFloatInput;
@@ -26,9 +26,13 @@ public class DigitalVideoDisc extends Disc implements Playable{
                 + " - " + this.getLength() + ": " + this.getCost() + " $");
     }
 
-    public void play() {
-        System.out.println("Playing DVD: " + this.getTitle());
-        System.out.println("DVD length: " + this.getLength());
+    public void play() throws PlayerException {
+        if (this.getLength() > 0) {
+            System.out.println("Playing DVD: " + this.getTitle());
+            System.out.println("DVD length: " + this.getLength());
+        } else {
+            throw new PlayerException("ERROR: DVD length is non-positive");
+        }
     }
 
     public static DigitalVideoDisc createDVD(Scanner scanner) {
